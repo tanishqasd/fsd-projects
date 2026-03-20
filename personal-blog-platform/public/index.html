@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanishqa | Digital Thoughts</title>
+    <link rel="stylesheet" href="/personal-blog-platform/public/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="glass-nav">
+        <div class="logo">My Personal Blog</div>
+        <div class="links"><span>About</span><span>Archive</span></div>
+    </nav>
+
+    <header class="hero">
+        <h1>Management <span class="accent">&</span> Design</h1>
+        <p>Curated insights into the intersection of technology and human behavior.</p>
+    </header>
+
+    <main id="blog-grid" class="bento-grid">
+        <!-- Posts will be injected here by script.js -->
+    </main>
+
+    <!-- Side Analysis Panel -->
+    <div id="analysis-panel" class="side-panel">
+        <div class="panel-content">
+            <button id="close-panel">×</button>
+            <div id="analysis-loader" class="loader"></div>
+            <div id="analysis-data">
+                <h2 id="analysis-title"></h2>
+                <p id="analysis-text"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
