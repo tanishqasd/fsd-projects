@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "title": "Summer Yoga Festival",
+    "date": "June 15, 2025",
+    "location": "Pune",
+    "spots": 11,
+    "registrations": [
+      {
+        "name": "tanishqa ",
+        "email": "jfjhruhfn"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Tech & Tea Meetup",
+    "date": "June 20, 2025",
+    "location": "Mumbai",
+    "spots": 5,
+    "registrations": []
+  },
+  {
+    "id": 3,
+    "title": "Green Living Workshop",
+    "date": "July 1, 2025",
+    "location": "Aurangabad",
+    "spots": 20,
+    "registrations": []
+  }
+]
